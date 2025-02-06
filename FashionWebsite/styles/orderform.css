@@ -1,0 +1,63 @@
+.order{
+
+        text-align: center;
+        color: #1c1a1a;
+        background-color: rgb(163, 150, 150);
+        padding: 5px;
+        width: fit-content;
+        margin-left: 40%;
+        margin-bottom: 20px;
+        font-size: 2em;
+    
+}
+
+
+input[type="text"],
+input[type="email"] {
+padding: 12px;
+margin: 10px;
+margin-bottom: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-sizing: border-box;
+font-size: 1em;
+}
+input[type="number"]{
+    padding: 12px;
+    width: 10%;
+margin: 10px;
+margin-bottom: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-sizing: border-box;
+font-size: 1em;
+}
+
+/* Flexbox Layout for form rows */
+.form-row {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+.form-row .input-group {
+flex: 1;
+}
+
+button[type="submit"] {
+background-color: #28a745;
+color: white;
+border: none;
+padding: 12px 20px;
+font-size: 1.1em;
+cursor: pointer;
+border-radius: 5px;
+width: 60%;
+transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+background-color: #218838;
+}
+
+

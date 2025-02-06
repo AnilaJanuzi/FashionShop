@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    header nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+  
+    .menu-toggle .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 4px 0;
+    }
+  
+    .hero-content h1 {
+      font-size: 36px;
+    }
+  
+    .hero-content p {
+      font-size: 18px;
+    }
+  
+    .product-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
