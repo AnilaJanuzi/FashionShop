@@ -8,4 +8,4 @@ Technologies Used:
 Features:
 - Browse through a variety of fashion categories.
 - View detailed product pages with images and descriptions.
-- Interactive shopping experience powered by JavaScript.
+- Interactive shopping experience powered by JavaScriptt.
